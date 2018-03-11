@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-    <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -106,9 +106,10 @@ $(document).ready(function(){
 			  <ul class="nav navbar-nav navbar-right">
 			  <c:if test="${pageContext.request.userPrincipal.name == null }">
 					<li >
-					<a href="<c:url value="admin/add"/>" role="button" aria-haspopup="true" aria-expanded="false" class="fa fa-user" style="font-size:20px;color:white">Login</a> </li>
+					<a href="<c:url value="admin/add"/>"  style="font-size:20px;color:white;font-family:cursive">Login</a></li>
+					
 				<li style="font-family:cursive">
-				<a href=' <c:url value="/reg" />'class="fa fa-users" style="font-size:20px;color:white">Signup</a>
+				<a href=' <c:url value="/reg" />' style="font-size:20px;color:white;font-family:cursive">Signup</a>
 				</li>
 				
 				</c:if>
