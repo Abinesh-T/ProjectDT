@@ -41,7 +41,7 @@
 						</div>	
 						<div class="col-sm-6 form-group">
 								<label>PASSWORD</label>
-								<input type="text" placeholder="Enter  Name Here.." class="form-control"  pattern="[A-Za-z]+" required name="userpass">
+								<input type="text" placeholder="Enter  Password Here.." class="form-control"  pattern="[A-Za-z]+" required name="userpass">
 							</div>
 						</div>					
 						<div class="form-group">
