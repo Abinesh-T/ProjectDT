@@ -5,8 +5,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="icon" href="./resources/images/Arun_brandings/Hatsun_icon.jpg">
+
+    <title>Hatsun_Daily</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
@@ -63,12 +67,14 @@ $(document).ready(function(){
 			<%-- <img src="${pageContext.request.contextPath}/resources/images/weblog1.jpg" class="img-circle" width="50px" height="25px"/> --%>
 			</a>
 		</div>		
-		
+		<div class="navbar-header">
+    <img class="" src="./resources/images/Arun_brandings/Home_Icon.png" >
+    </div>
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav">
-			  <li ><a href="" style="font-size:20px;color:white;font-family:Times New Roman">Home</a></li>
-				<li><a href="" style="font-size:20px;color:white;font-family:Times New Roman">AboutUs</a></li>
-				<li class="dropdown" style="font-family:Times New Roman"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+			  <li ><a href="" style="font-size:20px;color:white;font-family:cursive">Home</a></li>
+				<li><a href="" style="font-size:20px;color:white;font-family:cursive">AboutUs</a></li>
+				<li class="dropdown" style="font-family:cursive"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
 					aria-expanded="false"  style="font-size:20px;color:white">Categorys <span class="caret"></span></a>
 					<ul class="dropdown-menu">
 									
@@ -81,10 +87,10 @@ $(document).ready(function(){
 					</ul>
 					
 				</li>
-					 <li style="font-family:Times New Roman"><a href="<c:url value="/admin/add"/>" role="button" aria-haspopup="true"
+					 <li style="font-family:cursive"><a href="<c:url value="/admin/add"/>" role="button" aria-haspopup="true"
 					aria-expanded="false" style="font-size:20px;color:white">ManageProducts</a>
 					
-					<li style="font-family:Times New Roman"><a href="<c:url value="/admin/add1"/>" role="button" aria-haspopup="true"
+					<li style="font-family:cursive"><a href="<c:url value="/admin/add1"/>" role="button" aria-haspopup="true"
 					aria-expanded="false" style="font-size:20px;color:white">ManageCategory</a>
 								
 					</li>
@@ -93,20 +99,18 @@ $(document).ready(function(){
 					</li>
 					<!-- <li><a href="<c:url value="admin/productlistview"/>" style="font-family: fantasy;">PRODUCTLIST</a>-->
 			</ul>
-		
+		<%-- --%>
 			
 				<c:if test="${pageContext.request.userPrincipal.name  == 'admin'}">
                                 <li><a href="<c:url value="/admin" />">Admin</a></li>
                  </c:if>
-                 </ul>
 			  <ul class="nav navbar-nav navbar-right">
 			  <c:if test="${pageContext.request.userPrincipal.name == null }">
-					<li>
-					<%-- <a href=' <c:url value="/login" />'>Login</a> --%>
-					</li>
-					<li ><a href="<c:url value="admin/add"/>" role="button" aria-haspopup="true"
-					aria-expanded="false" class="fa fa-user" style="font-size:20px;color:white">Login</a> </li>
-				<li style="font-family:Times New Roman"><a href=' <c:url value="/reg" />'class="fa fa-users" style="font-size:20px;color:white">Signup</a></li>
+					<li >
+					<a href="<c:url value="admin/add"/>" role="button" aria-haspopup="true" aria-expanded="false" class="fa fa-user" style="font-size:20px;color:white">Login</a> </li>
+				<li style="font-family:cursive">
+				<a href=' <c:url value="/reg" />'class="fa fa-users" style="font-size:20px;color:white">Signup</a>
+				</li>
 				
 				</c:if>
 				<c:if test="${pageContext.request.userPrincipal.name  != null}">

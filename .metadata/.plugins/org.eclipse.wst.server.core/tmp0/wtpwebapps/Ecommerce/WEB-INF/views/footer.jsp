@@ -98,7 +98,7 @@ a.socialIcon:hover, .socialHoverClass {
   </style>
 </head>
 <body>
-<center><h3>@CopyRight2017</h3>
+<center><h3>created by Abinesh</h3>
 <!--Pulling Awesome Font -->
 
 
