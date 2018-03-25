@@ -7,7 +7,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <link rel="icon" href="./resources/images/Arun_brandings/Hatsun_icon.jpg">
-<title>Hatsun_Daily</title>
+<title>RegisterPage</title>
 <!-- To Access the Bootstrap link -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -25,14 +25,17 @@
 <body>
 <jsp:include page="header.jsp"></jsp:include>
 <!-- Registration form here -->
-<div class="container">
-    <center><h3 class="well" style="font-family: cursive;font-style: italic;color:#0000cc">COMPLETE REGISTER PROCESS</h3></center>
+<div class="container" style="font-family: cursive">
+    <center><h3 class="well" style="font-family: cursive;font-style: italic;color:red">SignUp</h3></center>
 	<div class="col-lg-12 well">
 	<div class="row">
 			<form  action="registerpage" method="post">
 					<div class="col-sm-12">
 						<div >
-							
+							<div class="col-sm-6 form-group">
+								<label style="font-family:cursive">USERID</label>
+								<input type="text" placeholder="Enter Your ID Here.." class="form-control" style="font-family:cursive" pattern="[0-9]+" required name="userid">
+							</div>
 							<div class="col-sm-6 form-group">
 								<label style="font-family:cursive">NAME</label>
 								<input type="text" placeholder="Enter  Name Here.." class="form-control" style="font-family:cursive" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$" required name="username">

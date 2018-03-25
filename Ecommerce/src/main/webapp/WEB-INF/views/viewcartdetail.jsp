@@ -20,7 +20,7 @@
 <br/>
 <jsp:include page="header.jsp"></jsp:include>
 <br><br>
-	<table class="table table-striped table-bordered dt-responsive nowrap">
+	<table class="table table-striped table-bordered dt-responsive nowrap" style="font-family: cursive">
 
 		<thead>
 			<tr>

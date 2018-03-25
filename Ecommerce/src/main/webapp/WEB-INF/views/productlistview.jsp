@@ -6,7 +6,7 @@
 <head>
 	<meta charset="utf-8" />
 	<link rel="icon" href="./resources/images/Arun_brandings/Hatsun_icon.jpg">
-<title>Hatsun_Daily</title>
+<title>ProductList</title>
 	
 <!-- datatable -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -31,7 +31,7 @@
 <br/>
 <jsp:include page="header.jsp"></jsp:include>
 <br><br>
-	<table class="table table-striped table-bordered dt-responsive nowrap">
+	<table class="table table-striped table-bordered dt-responsive nowrap" style="font-family: cursive">
 
 		<thead>
 			<tr>
@@ -61,6 +61,7 @@
 		</tbody>
 
 	</table>
+	<jsp:include page="footer.jsp"></jsp:include>
 	<script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="

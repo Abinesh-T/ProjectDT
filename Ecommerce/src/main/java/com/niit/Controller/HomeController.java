@@ -66,6 +66,15 @@ public class HomeController
 			return mt;
 	    
    		}
+   @RequestMapping(value="/index")
+		public ModelAndView indexPage()
+		{
+  List<CategoryModel> list=categoryDAO.getAll();
+      ModelAndView mt1=new ModelAndView("index");
+  	mt1.addObject("clist",list);
+		return mt1;
+   
+		}
    @ModelAttribute
    public void addAttributes(Model model)
    {

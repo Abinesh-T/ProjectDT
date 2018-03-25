@@ -25,22 +25,22 @@
 <fieldset>
 
 <!-- Form Name -->
-<legend>EDIT PRODUCTS</legend>
+<legend style="font-family: cursive">EDIT PRODUCTS</legend>
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="product_id">PRODUCT ID</label>  
+  <label class="col-md-4 control-label" style="font-family: cursive" for="product_id">PRODUCT ID</label>  
   <div class="col-md-4">
-  <input id="product_id" value="${product.productid}"  name="id" placeholder="PRODUCT ID" class="form-control input-md" required="" type="text">
+  <input id="product_id" value="${product.productid}"  name="id" placeholder="PRODUCT ID" class="form-control input-md" style="font-family: cursive" required="" type="text">
     
   </div>
 </div>
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="product_name">PRODUCT NAME</label>  
+  <label class="col-md-4 control-label"  style="font-family: cursive"for="product_name">PRODUCT NAME</label>  
   <div class="col-md-4">
-  <input id="product_name" value="${product.productname}" name="pname" placeholder="PRODUCT NAME" class="form-control input-md" required="" type="text">
+  <input id="product_name" value="${product.productname}" name="pname" placeholder="PRODUCT NAME" class="form-control input-md"  style="font-family: cursive" required="" type="text">
     
   </div>
 </div>
@@ -48,7 +48,7 @@
 
 <!-- Select Basic -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="product_categorie">PRODUCT CATEGORY</label>
+  <label class="col-md-4 control-label"  style="font-family: cursive" for="product_categorie">PRODUCT CATEGORY</label>
   <div class="col-md-4">
     <select id="product_categorie" name="cid" class="form-control">
     
@@ -62,7 +62,7 @@
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="product_prices">PRODUCT PRICES</label>  
+  <label class="col-md-4 control-label"  style="font-family: cursive" for="product_prices">PRODUCT PRICES</label>  
   <div class="col-md-4">
   <input id="available_quantity" value="${product.productprice}" name="price" placeholder="PRODUCTPRICES" class="form-control input-md" required="" type="text">
     
@@ -71,7 +71,7 @@
 
  <!-- File Button --> 
 <div class="form-group">
-  <label class="col-md-4 control-label" for="filebutton">main_image</label>
+  <label class="col-md-4 control-label" style="font-family: cursive" for="filebutton">main_image</label>
   <div class="col-md-4">
     <input id="filebutton" name="file" class="input-file" type="file">
   </div>
@@ -82,7 +82,7 @@
   <label class="col-md-4 control-label" for="singlebutton"></label>
   <div class="col-md-4">
  
-    <button id="singlebutton" name="singlebutton" class="btn btn-primary">Update</button>
+    <button id="singlebutton" name="singlebutton" class="btn btn-primary" style="font-family: cursive">Update</button>
   </div>
   </div>
 

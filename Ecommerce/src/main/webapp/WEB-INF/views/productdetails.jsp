@@ -6,7 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <link rel="icon" href="./resources/images/Arun_brandings/Hatsun_icon.jpg">
-<title>Hatsun_Daily</title>
+<title>ProductDetails</title>
 <!-- To Access the Bootstrap link -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -34,20 +34,19 @@ function sum() {
 
 <jsp:include page="header.jsp"></jsp:include>
     <!-- Product details page -->
-    <div class="container-fluid">		
+    <div class="container-fluid" style="font-family: cursive">		
 			<div class="col-md-12 product-info">
 					<ul id="myTab" class="nav nav-tabs nav_tabs">
 						
 						<li class="active"><a href="#service-one" data-toggle="tab">DESCRIPTION</a></li>
-						<!--  <li><a href="#service-two" data-toggle="tab">PRODUCT INFO</a></li>
-						<li><a href="#service-three" data-toggle="tab">REVIEWS</a></li> -->
+						
 						
 					</ul>
 				
 					
 				</div>
 				<hr>
-    <div class="container-fluid">
+    <div class="container-fluid" style="font-family: cursive">
     <div class="content-wrapper">	
 		<div class="item-container">	
 			<div class="container">	
@@ -64,10 +63,9 @@ function sum() {
 					
 				</div>
 					
-				<div class="col-md-7">
+				<div class="col-md-7" style="font-family: cursive">
 				<div class="product-title">${product.productname}</div>
 				
-					<%-- <div class="product-desc">${product.p_description}</div> --%>
 					<div class="product-rating"><i class="fa fa-star gold"></i> <i class="fa fa-star gold"></i> <i class="fa fa-star gold"></i> <i class="fa fa-star gold"></i> <i class="fa fa-star-o"></i> </div>
 					<hr>
 					<form action="productdetails"  method="post">
@@ -87,11 +85,7 @@ function sum() {
 							
 					</div>
 					</form>
-					<!-- <div class="btn-group wishlist">
-						<button type="button" class="btn btn-danger">
-							Add to wishlist 
-						</button>
-					</div> -->
+					
 				</div>
 			</div> 
 		

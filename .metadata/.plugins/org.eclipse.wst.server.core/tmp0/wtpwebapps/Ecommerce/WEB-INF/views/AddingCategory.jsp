@@ -6,7 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <link rel="icon" href="./resources/images/Arun_brandings/Hatsun_icon.jpg">
-<title>Hatsun_Daily</title>
+<title>AddCategory</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -20,22 +20,22 @@
 <fieldset>
 
 <!-- Form Name -->
-<legend>ADD CATEGORY</legend>
+<legend style="font-family: cursive">ADD CATEGORY</legend>
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="product_id">CATEGORY ID</label>  
+  <label class="col-md-4 control-label" style="font-family: cursive" for="product_id">CATEGORY ID</label>  
   <div class="col-md-4">
-  <input id="category_id"  name="c_id" placeholder="CATEGORY ID" class="form-control input-md" required="" type="text">
+  <input id="category_id"  name="c_id" style="font-family: cursive" placeholder="CATEGORY ID" class="form-control input-md" required="" type="text">
     
   </div>
 </div>
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="product_name">CATEGORY NAME</label>  
+  <label class="col-md-4 control-label" style="font-family: cursive" for="product_name">CATEGORY NAME</label>  
   <div class="col-md-4">
-  <input id="category_name" name="c_name" placeholder="CATEGORY NAME" class="form-control input-md" required="" type="text">
+  <input id="category_name" name="c_name" placeholder="CATEGORY NAME" class="form-control input-md" style="font-family: cursive" required="" type="text">
     
   </div>
 </div>
@@ -48,7 +48,7 @@
 <div class="form-group">
   <label class="col-md-4 control-label" for="singlebutton"></label>
   <div class="col-md-4">
-    <button id="singlebutton" name="singlebutton" class="btn btn-primary">AddCategory</button>
+    <button id="singlebutton" name="singlebutton" style="font-family: cursive" class="btn btn-primary">AddCategory</button>
   </div>
   </div>
 

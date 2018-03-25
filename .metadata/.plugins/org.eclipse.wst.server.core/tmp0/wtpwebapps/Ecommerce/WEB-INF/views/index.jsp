@@ -26,10 +26,10 @@
       <img src="./resources/images/Arun_brandings/slide2.png" alt="Scooping_Varieties">
     </div>
     <div class="item">
-      <img src="./resources/images/Arun_brandings/slide3.png" alt="Scooping">
+      <img src="./resources/images/Arun_brandings/slide4.png" alt="Scooping">
     </div>
     <div class="item">
-      <img src="./resources/images/Arun_brandings/slide1.jpg" alt="Scooping">
+      <img src="./resources/images/Arun_brandings/slide5.jpg" alt="Scooping">
     </div>
    </div>
 
@@ -49,9 +49,9 @@
     <div class="thumbnail">
       <img src="./resources/images/Exotic_IceCreams/AICEE004-500x500.jpg" alt="...">
       <div class="caption">
-        <h3>Exotic_IceCreams</h3>
-        <p>Different desserts of IceCreams</p>
-        <p><a href="noAccessPage" class="btn btn-primary" role="button">AddCart</a> <a href="reg" class="btn btn-default" role="button">Buy</a></p>
+        <h3 style="font-family:cursive">Exotic_IceCreams</h3>
+        <p style="font-family:cursive">Different desserts of IceCreams</p>
+        <p><a href="noAccessPage" class="btn btn-primary" style="font-family:cursive" role="button">AddCart</a> <a href="reg" class="btn btn-default" role="button">Buy</a></p>
        </div>
     </div>
   </div>
@@ -59,9 +59,9 @@
     <div class="thumbnail">
       <img src="./resources/images/Cup_IceCreams/Screen_Shot_2017-08-28_at_1.46.58_PM_1024x1024@2x.png" alt="...">
       <div class="caption">
-        <h3>Cup IceCreams</h3>
-        <p>Variety of cup of IceCreams</p>
-        <p><a href="noAccessPage" class="btn btn-primary" role="button">AddCart</a> <a href="reg" class="btn btn-default" role="button">Buy</a></p>
+        <h3 style="font-family:cursive">Cup IceCreams</h3>
+        <p style="font-family:cursive">Variety of cup of IceCreams</p>
+        <p><a href="noAccessPage" class="btn btn-primary" style="font-family:cursive" role="button">AddCart</a> <a href="reg" class="btn btn-default" role="button">Buy</a></p>
         </div>
     </div>
   </div>
@@ -69,18 +69,18 @@
     <div class="thumbnail">
       <img src="./resources/images/Cone_IceCreams/0.51-500x500.jpg" alt="...">
       <div class="caption">
-        <h3>Cone IceCreams</h3>
-        <p>Variety of Cone IceCreams</p>
-        <p><a href="noAccessPage" class="btn btn-primary" role="button">AddCart</a> <a href="reg" class="btn btn-default" role="button">Buy</a></p>
+        <h3 style="font-family:cursive">Cone IceCreams</h3>
+        <p style="font-family:cursive">Variety of Cone IceCreams</p>
+        <p><a href="noAccessPage" class="btn btn-primary" style="font-family:cursive" role="button">AddCart</a> <a href="reg" class="btn btn-default" role="button">Buy</a></p>
         </div>
     </div>
    </div><div class="col-md-4">
     <div class="thumbnail">
       <img src="./resources/images/FamilyPack_IceCreams/Arun Ice Cream Vanilla Blossom Choco 250 ml-500x500.jpg" alt="...">
       <div class="caption">
-        <h3>FamilyPack IceCreams</h3>
-        <p>Variety of FamilyPack IceCreams</p>
-        <p><a href="noAccessPage" class="btn btn-primary" role="button">AddCart</a> <a href="reg" class="btn btn-default" role="button">Buy</a></p>
+        <h3 style="font-family:cursive">FamilyPack IceCreams</h3>
+        <p style="font-family:cursive">Variety of FamilyPack IceCreams</p>
+        <p><a href="noAccessPage" class="btn btn-primary" style="font-family:cursive" role="button">AddCart</a> <a href="reg" class="btn btn-default" role="button">Buy</a></p>
        </div>
     </div>
    </div>
@@ -88,9 +88,9 @@
     <div class="thumbnail">
       <img src="./resources/images/Stick_IceCreams/arun i bar Classic vanilla-500x500.jpg" alt="...">
       <div class="caption">
-        <h3>Stick IceCreams</h3>
-        <p>Varities of stick IceCreams</p>
-      <p><a href="noAccessPage" class="btn btn-primary" role="button">AddCart</a> <a href="reg" class="btn btn-default" role="button">Buy</a></p>
+        <h3 style="font-family:cursive">Stick IceCreams</h3>
+        <p style="font-family:cursive">Varities of stick IceCreams</p>
+      <p><a href="noAccessPage" class="btn btn-primary" style="font-family:cursive" role="button">AddCart</a> <a href="reg" class="btn btn-default" role="button">Buy</a></p>
          </div>
     </div>
    </div>
@@ -98,9 +98,9 @@
     <div class="thumbnail">
       <img src="./resources/images/Other_Products/Dairy-Whitner-200g-570x598.png" alt="...">
       <div class="caption">
-        <h3>HatsunProducts</h3>
-        <p>DiaryWhitner</p>
-        <p><a href="noAccessPage" class="btn btn-primary" role="button">AddCart</a> <a href="reg" class="btn btn-default" role="button">Buy</a></p>
+        <h3 style="font-family:cursive">HatsunProducts</h3>
+        <p style="font-family:cursive">DiaryWhitner</p>
+        <p><a href="noAccessPage" class="btn btn-primary" style="font-family:cursive" role="button">AddCart</a> <a href="reg" class="btn btn-default" role="button">Buy</a></p>
       </div>
     </div>
    </div>

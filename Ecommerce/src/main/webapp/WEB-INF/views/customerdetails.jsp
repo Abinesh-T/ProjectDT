@@ -104,7 +104,22 @@
                 </center>
            
        
-    <jsp:include page="footer.jsp"></jsp:include>
+    <center><h3 style="font-family:cursive">created by Abinesh</h3>
+<!--Pulling Awesome Font -->
+
+
+
+    			<div class="col-md-12">
+                    <ul class="social-network social-circle">
+                        <li><a href="#" class="icoRss" title="Rss" style="background-color: #D3D3D4"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#" class="icoFacebook" title="Facebook" style="background-color: #D3D3D4"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" class="icoTwitter" title="Twitter" style="background-color: #D3D3D4"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" class="icoGoogle" title="Google +" style="background-color: #D3D3D4"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#" class="icoLinkedin" title="Linkedin" style="background-color: #D3D3D4"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>				
+				</div>
+
+</center>
 
 
 </body>

@@ -16,28 +16,28 @@
 <body>
 <jsp:include page="header.jsp"></jsp:include>
 <br><br><br>
-<center>
-<h4 style="font-family:Segoe Print;color:blue">THANKS FOR SHOPPING..</h4>
-<h3 style="font-family:Segoe Print;color:blue">CHECK YOUR SHIPPING DETAILS</h3>
+<center style="font-family: cursive">
+<h4  style="font-family: cursive;color:navy">THANKS FOR SHOPPING..</h4>
+<h3  style="font-family: cursive;color:navy">CHECK YOUR SHIPPING DETAILS</h3>
 <form action="check" class="form-horizontal">
 
-<div class="form-group">
-  <label class="col-md-4 control-label" for="">SHIPPING ID</label>  
-  <div class="col-md-4">
-  <input id="" name="cusid" placeholder="SHIPPING ID" class="form-control input-md" required="" type="text">
+<div class="form-group" style="font-family: cursive">
+  <label class="col-md-4 control-label"  style="font-family: cursive" for="">SHIPPING ID</label>  
+  <div class="col-md-4" style="font-family: cursive">
+  <input id="" name="cusid" placeholder="SHIPPING ID" class="form-control input-md"  style="font-family: cursive" required="" type="text">
     
   </div>
 </div>
 <!-- Button -->
-<div class="form-group">
+<div class="form-group" style="font-family: cursive">
   <label class="col-md-4 control-label" for="singlebutton"></label>
   <div class="col-md-4">
-  <center>  <button id="singlebutton" name="singlebutton" class="btn btn-primary">CHECK</button></center>
+  <center>  <button id="singlebutton" name="singlebutton" class="btn btn-primary"  style="font-family: cursive">CHECK</button></center>
   </div>
   </div>
 
 </form>
-<table class="table table-striped table-bordered dt-responsive nowrap">
+<table class="table table-striped table-bordered dt-responsive nowrap" style="font-family: cursive">
 <thead>
    <tr>
    <th>CUSTOMER NAME</th>

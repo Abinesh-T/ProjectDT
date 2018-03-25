@@ -9,7 +9,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <link rel="icon" href="./resources/images/Arun_brandings/Hatsun_icon.jpg">
-<title>Hatsun_Daily</title>
+<title>Adding</title>
 <!-- To Access the Bootstrap link -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -21,32 +21,32 @@
 
 <!-- AddProduct coding  started -->
 <jsp:include page="header.jsp"></jsp:include><br><br>
-<a href="categorylist" style="font-family: fantasy;">CATEGORYLIST</a>&nbsp;&nbsp;&nbsp;&nbsp;
-<!-- <a href="supplierlist" style="font-family: fantasy;">SUPPLIERLIST</a>&nbsp;&nbsp;&nbsp;&nbsp; -->
-<a href="productlistview" style="font-family: fantasy;">PRODUCTLIST</a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="viewshipdetails" style="font-family: fantasy;">VIEWALLSHIPDETAILS</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="categorylist" style="font-family: cursive">CATEGORYLIST</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<!-- <a href="supplierlist" style="font-family: cursive">SUPPLIERLIST</a>&nbsp;&nbsp;&nbsp;&nbsp; -->
+<a href="productlistview" style="font-family: cursive">PRODUCTLIST</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="viewshipdetails" style="font-family: cursive">VIEWALLSHIPDETAILS</a>&nbsp;&nbsp;&nbsp;&nbsp;
 
 <hr>
 <form class="form-horizontal" action="addProduct" method="post" enctype="multipart/form-data">
 <fieldset>
 
 <!-- Form Name -->
-<legend>ADD PRODUCTS</legend>
+<legend style="font-family: cursive">ADD PRODUCTS</legend>
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="product_id">PRODUCT ID</label>  
+  <label class="col-md-4 control-label" style="font-family: cursive" for="product_id">PRODUCT ID</label>  
   <div class="col-md-4">
-  <input id="product_id"  name="id" placeholder="PRODUCT ID" class="form-control input-md" required="" type="text">
+  <input id="product_id"  name="id" placeholder="PRODUCT ID" class="form-control input-md" style="font-family: cursive" required="" type="text">
     
   </div>
 </div>
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="product_name">PRODUCT NAME</label>  
+  <label class="col-md-4 control-label" style="font-family: cursive" for="product_name">PRODUCT NAME</label>  
   <div class="col-md-4">
-  <input id="product_name" name="pname" placeholder="PRODUCT NAME" class="form-control input-md" required="" type="text">
+  <input id="product_name" name="pname" placeholder="PRODUCT NAME" class="form-control input-md" style="font-family: cursive" required="" type="text">
     
   </div>
 </div>
@@ -54,13 +54,13 @@
 
 <!-- Select Basic -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="product_categorie">PRODUCT CATEGORY</label>
+  <label class="col-md-4 control-label" style="font-family: cursive" for="product_categorie">PRODUCT CATEGORY</label>
   <div class="col-md-4">
-    <select id="product_categorie" name="cid" class="form-control">
+    <select id="product_categorie" style="font-family: cursive" name="cid" class="form-control">
     
              <c:forEach var="cList" items="${clist}">
 
-                <option value="${cList.categoryid}">${cList.categoryname}</option>
+                <option style="font-family: cursive" value="${cList.categoryid}">${cList.categoryname}</option>
                 </c:forEach>
     </select>
   </div>
@@ -68,73 +68,32 @@
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="product_prices">PRODUCT PRICES</label>  
+  <label class="col-md-4 control-label" style="font-family: cursive" for="product_prices">PRODUCT PRICES</label>  
   <div class="col-md-4">
-  <input id="available_quantity" name="price" placeholder="PRODUCTPRICES" class="form-control input-md" required="" type="text">
+  <input id="available_quantity" name="price" style="font-family: cursive" placeholder="PRODUCTPRICES" class="form-control input-md" required="" type="text">
     
   </div>
 </div>
 
  <!-- File Button --> 
-<div class="form-group">
-  <label class="col-md-4 control-label" for="filebutton">Select Your Product Image</label>
-  <div class="col-md-4">
-    <input id="filebutton" name="file" class="input-file" type="file">
+<div class="form-group" style="font-family: cursive">
+  <label class="col-md-4 control-label" style="font-family: cursive" for="filebutton">Select Your Product Image</label>
+  <div class="col-md-4" style="font-family: cursive">
+    <input id="filebutton" name="file" class="input-file" style="font-family: cursive" type="file">
   </div>
 </div>
 
 <!-- Button -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="singlebutton"></label>
+  <label class="col-md-4 control-label" style="font-family: cursive" for="singlebutton"></label>
   <div class="col-md-4">
-    <button id="singlebutton" name="singlebutton" class="btn btn-primary">AddProduct</button>
+    <button id="singlebutton" name="singlebutton" style="font-family: cursive" class="btn btn-primary">AddProduct</button>
   </div>
   </div>
 
 </fieldset>
 </form>
-          
-      <%--  <!-- AddCategory -->
-       
-       <form class="form-horizontal" action="category"  method="post">
-<fieldset>
-
-<!-- Form Name -->
-<legend>ADD CATEGORY</legend>
-
-<!-- Text input-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="product_id">CATEGORY ID</label>  
-  <div class="col-md-4">
-  <input id="category_id"  name="c_id" placeholder="CATEGORY ID" class="form-control input-md" required="" type="text">
-    
-  </div>
-</div>
-
-<!-- Text input-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="product_name">CATEGORY NAME</label>  
-  <div class="col-md-4">
-  <input id="category_name" name="c_name" placeholder="CATEGORY NAME" class="form-control input-md" required="" type="text">
-    
-  </div>
-</div>
-
-
-
-
-
-<!-- Button -->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="singlebutton"></label>
-  <div class="col-md-4">
-    <button id="singlebutton" name="singlebutton" class="btn btn-primary">AddCategory</button>
-  </div>
-  </div>
-
-</fieldset>
-</form> --%>
-    <jsp:include page="footer.jsp"></jsp:include>
+<jsp:include page="footer.jsp"></jsp:include>
 
 
 </body>

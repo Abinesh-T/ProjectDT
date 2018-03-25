@@ -6,9 +6,7 @@
 <head>
 	<meta charset="utf-8" />
 	<link rel="icon" href="./resources/images/Arun_brandings/Hatsun_icon.jpg">
-<title>Hatsun_Daily</title>
-	<!-- Latest compiled and minified CSS -->
-
+	<title>ProductList</title>
 </head>
 
 <body>
@@ -16,11 +14,11 @@
 <br/>
 <jsp:include page="header.jsp"></jsp:include><br><br>
 
-<table class="table table-striped table-bordered dt-responsive nowrap">
+<table class="table table-striped table-bordered dt-responsive nowrap" style="font-family: cursive">
                 
                    <thead>
             <tr>
-            <th class="hidden-xs">ID</th>
+            <th class="hidden-xs" style="font-family: cursive">ID</th>
                         <th>Name</th>
                        <th>Category</th>
                        <th>Price</th>
@@ -31,7 +29,7 @@
         <c:forEach items="${list}" var="p">
             <tr>
                 
-                       <td class="hidden-xs">${p.productid}</td>
+                       <td class="hidden-xs" style="font-family: cursive">${p.productid}</td>
                            <td >${p.productname}</td>
                           <td>${p.categoryid.categoryname}</td>  
                            <td>${p.productprice}</td> 
@@ -41,6 +39,6 @@
              </c:forEach>
               
                  </table>
-                 
+ <jsp:include page="footer.jsp"></jsp:include>         
 </body>
 </html>

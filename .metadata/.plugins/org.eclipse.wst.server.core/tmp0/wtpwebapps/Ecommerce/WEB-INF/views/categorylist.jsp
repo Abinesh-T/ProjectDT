@@ -6,7 +6,7 @@
 <head>
 	<meta charset="utf-8" />
 	<link rel="icon" href="./resources/images/Arun_brandings/Hatsun_icon.jpg">
-<title>Hatsun_Daily</title>
+<title>Category_list</title>
 	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -19,12 +19,12 @@
 	<jsp:include page="header.jsp"/>
 <br/>
 <br>
-<h3>CategotyList</h3>
-<div class="container">
+<h3 style="font-family: cursive">CategotyList</h3>
+<div class="container" style="font-family: cursive">
 <div class="row">
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+<input type="text" id="myInput" onkeyup="myFunction()" style="font-family: cursive" placeholder="Search for names.." title="Type in a name">
 
-<table id="myTable">
+<table id="myTable" style="font-family: cursive">
   <tr class="header">
        <th class="hidden-xs">ID</th>
                        <th>Name</th>
@@ -34,10 +34,6 @@
                          
                          <c:forEach items="${clist}" var="p">
                          <tr>
-                         <!-- <td>
-                             <a class="btn btn-default"><em class="fa fa-pencil"></em></a>
-                             <a class="btn btn-danger"><em class="fa fa-trash"></em></a>
-                           </td> -->
                            <td>${p.categoryid}</td>
                            <td>${p.categoryname}</td>
                              
@@ -49,7 +45,7 @@
                </table>
            
              </div>
-             <div class="panel-footer">
+             <div class="panel-footer" style="font-family: cursive">
                <div class="row">
                  <div class="col col-xs-4"><a href="./add">BACK</a>
                  </div>

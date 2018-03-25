@@ -126,7 +126,7 @@ a.socialIcon:hover, .socialHoverClass {
 <jsp:include page="header.jsp"></jsp:include><br><br>
 
 
-	<table class="table table-striped table-bordered dt-responsive nowrap">
+	<table class="table table-striped table-bordered dt-responsive nowrap" style="font-family: cursive">
 
 		<thead>
 			<tr>
@@ -169,7 +169,7 @@ $(document).ready(function(){
 </script>
 
  <!-- Footer start -->  
-<center><h3>@CopyRight2017</h3>
+<center><h3 style="font-family:cursive">created by Abinesh</h3>
 <!--Pulling Awesome Font -->
 
 
