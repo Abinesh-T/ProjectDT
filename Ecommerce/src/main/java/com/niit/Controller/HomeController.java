@@ -102,8 +102,6 @@ public class HomeController
 		
 	   int u_id=Integer.valueOf(request.getParameter("userid"));
 		
-	  // int u_id=Integer.parseInt(request.getParameter("userid"));
-	   
 	   String u_name=request.getParameter("username");
 	   
 	   String u_pass=request.getParameter("userpass");
@@ -114,14 +112,10 @@ public class HomeController
 	   
 	   int u_age=Integer.valueOf(request.getParameter("userage"));
 	   
-	   //int u_age=Integer.parseInt(request.getParameter("userage"));
 	   
 	   String u_city=request.getParameter("usercity");
 	   String u_phone=request.getParameter("userphone");
 	   
-	   //int u_phone=Integer.valueOf(request.getParameter("userphone"));
-	   
-	  // int u_phone=Integer.parseInt(request.getParameter("userphone"));
 	   
 	   String u_gen=request.getParameter("usergen");
 	   
