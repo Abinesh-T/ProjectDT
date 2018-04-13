@@ -1,6 +1,5 @@
 package com.niit.Ecommerce_backend.Impl;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.hibernate.Query;
@@ -10,7 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.niit.Ecommerce_backend.DAO.ShipDAO;
-import com.niit.Ecommerce_backend.Model.ProductModel;
 import com.niit.Ecommerce_backend.Model.ShipModel;
 
 
@@ -43,12 +41,10 @@ public class ShipDAOImpl implements ShipDAO
 	
 
 	public void update(ShipModel s) {
-		// TODO Auto-generated method stub
 		
 	}
 
 	public void deleteById(int id) {
-		// TODO Auto-generated method stub
 		
 	}
 
@@ -57,7 +53,8 @@ public class ShipDAOImpl implements ShipDAO
 		s.beginTransaction();
 		Query query =s.createQuery("from ShipModel");      
 		//List<ShipModel> results =s.createQuery("from ShipModel where cusid="+cusid).list(); 
-		List<ShipModel> list=query.list();
+		@SuppressWarnings("unchecked")
+		List<ShipModel> list= query.list();
 		System.out.println(list);
 		s.getTransaction().commit();
 		return list;

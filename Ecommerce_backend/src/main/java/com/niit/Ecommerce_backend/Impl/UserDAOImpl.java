@@ -24,9 +24,7 @@ public class UserDAOImpl implements UserDAO
 		}
 	
 	public void addUser(UserModel u) {
-		// TODO Auto-generated method stub
-		// TODO Auto-generated method stub
-					Session s=sessionFactory.openSession();
+		Session s=sessionFactory.openSession();
 					s.beginTransaction();
 					s.save(u);
 					s.getTransaction().commit();
@@ -35,22 +33,18 @@ public class UserDAOImpl implements UserDAO
 	}
 
 	public void getId(int id) {
-		// TODO Auto-generated method stub
 		
 	}
 
 	public void update(UserModel u) {
-		// TODO Auto-generated method stub
 		
 	}
 
 	public void deleteById(int id) {
-		// TODO Auto-generated method stub
 		
 	}
 
 	public ArrayList<UserModel> getAll() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 

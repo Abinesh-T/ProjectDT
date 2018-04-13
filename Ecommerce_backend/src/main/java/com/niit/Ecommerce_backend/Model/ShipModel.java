@@ -7,10 +7,6 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import org.hibernate.SessionFactory;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Repository;
-
 
 @Entity	
 @Table(name="SHIPMODEL")
@@ -73,7 +69,6 @@ public class ShipModel implements Serializable
 
 	public ShipModel() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 	public ShipModel(String cusname, String email, String address, String phone, String pay) {
 		super();

@@ -14,13 +14,6 @@ import org.hibernate.validator.constraints.NotEmpty;
 public class UserModel implements Serializable
 {
 	private static final long serialVersionUID = 1L;
-	// @Autowired
-		/*private SessionFactory sessionFactory;*/
-		
-		/*public void setSessionFactory(SessionFactory sf){
-			this.sessionFactory = sf;
-		}*/
-   
 	@Id
 	@Column(name="userid")//defining the database column
 	private int userid;
@@ -45,15 +38,9 @@ public class UserModel implements Serializable
 	private String gender;
 	@Column(name="enabled")
 	private boolean enabled;
-	/*
-	@OneToOne(cascade=CascadeType.ALL)
-	@JoinColumn(name="cartid") 
-	private CartModel cartid;*/
-	//fetch=FetchType.EAGER
-	 
-	 private String role;
+	private String role;
 	
-	 public boolean isEnabled() {
+	 public boolean isEnabled() { 
 		return enabled;
 	}
 	public void setEnabled(boolean enabled) {
@@ -78,7 +65,6 @@ public class UserModel implements Serializable
 		
 		this.role = role;
 	}
-	//@Id
 	public int getUserid() {
 		return userid;
 	}
