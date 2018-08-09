@@ -308,10 +308,10 @@ public class HomeController
 	}
 	
 	//code for shipdetails
-	@RequestMapping(value="/user/customerdetails")
 	
 	public ModelAndView customer()
-	{
+	{@RequestMapping(value="/user/customerdetails")
+	
 		ModelAndView m18=new ModelAndView("customerdetails");
 	    return m18;
 	}

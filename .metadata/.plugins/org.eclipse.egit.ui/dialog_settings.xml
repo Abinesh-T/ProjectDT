@@ -8,6 +8,7 @@
 	<item value="382" key="DIALOG_X_ORIGIN"/>
 	<item value="14" key="DIALOG_Y_ORIGIN"/>
 	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/azartechnet/ProjectDemoEclipse/tree/master/HibernateDemoAppSpring"/>
 		<item value="https://github.com/azartechnet/ProjectDemoEclipse.git"/>
 	</list>
 	<list key="CommitDialog.authorValues">

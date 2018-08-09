@@ -14,6 +14,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\Ecommerce_site"/>
 			<item value="D:\ProjectDT\Ecommerce"/>
 			<item value="D:\ProjectDT\Ecommerce_backend"/>
 		</list>
